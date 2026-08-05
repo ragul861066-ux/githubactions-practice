@@ -2,7 +2,7 @@ name: 06 - Scheduled Run
 
 on:
   schedule:
-    - cron: '28 11 * * *'      # every day at 02:00 UTC
+    - cron: '10 * * * *'      # every day at 02:00 UTC
           # every Monday at 09:00 UTC
 
 jobs:
